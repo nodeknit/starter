@@ -1,0 +1,18 @@
+
+variables:
+  GITLAB_REGISTRY: 192.168.88.129:5050
+  
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  only:
+    - main
+    - dev
+  script:
+    # main
+    - docker login $GITLAB_REGISTRY -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
+    - docker build -t $GITLAB_REGISTRY/$CI_PROJECT_PATH:${CI_COMMIT_BRANCH} . -f Dockerfile
+    - docker push $GITLAB_REGISTRY/$CI_PROJECT_PATH:${CI_COMMIT_BRANCH}

@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  converter:
+    image: '${CONVERTER_IMAGE:-192.168.88.129:5050/urbantech/uzimuth:main}'
+    env_file:
+      - .env
+    ports:
+      - '17280:17280'
+    volumes:
+      - './data:/app/data'
+    labels:
+      - com.centurylinklabs.watchtower.enable=true

@@ -1,0 +1,9 @@
+[submodule "local_modules/app-manager"]
+	path = local_modules/app-manager
+	url = git@github.com:nodeknit/app-manager.git
+[submodule "local_modules/app-nodered"]
+	path = local_modules/app-nodered
+	url = git@github.com:nodeknit/app-nodered.git
+[submodule "local_modules/app-adminizer"]
+	path = local_modules/app-adminizer
+	url = git@github.com:nodeknit/app-adminizer.git

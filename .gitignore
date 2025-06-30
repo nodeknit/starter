@@ -1,0 +1,12 @@
+local_modules/**/dist
+node_modules
+data/*
+!data/.gitkeep
+./logs/*
+*.log
+adminizer-for-docs
+temp
+dist
+codex.patch
+.yarn/install-state.gz
+donor
