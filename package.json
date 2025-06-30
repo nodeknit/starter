@@ -8,7 +8,7 @@
     "dev": "npx tsx watch ./index.ts",
     "build:modules": "vite build"
   },
-  "author": "Vuxfi",
+  "author": "YourName",
   "license": "MIT",
   "description": "",
   "dependencies": {
