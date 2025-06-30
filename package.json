@@ -1,5 +1,5 @@
 {
-  "name": "uzimuth",
+  "name": "app-base",
   "type": "module",
   "version": "1.0.0-alpha.2",
   "main": "index.js",

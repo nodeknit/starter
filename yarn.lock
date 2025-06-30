@@ -9139,9 +9139,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uzimuth@workspace:.":
+"app-base@workspace:.":
   version: 0.0.0-use.local
-  resolution: "uzimuth@workspace:."
+  resolution: "app-base@workspace:."
   dependencies:
     "@faker-js/faker": "npm:^9.8.0"
     "@inertiajs/react": "npm:^1.1.0"

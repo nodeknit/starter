@@ -128,7 +128,7 @@
  import { datetimeSettingsMiddleware } from './adminizer/settings/datetime';
 
  export class AppBase extends AbstractApp {
-   public appId = 'uzimuth-base';
+   public appId = 'app-base-base';
    public name = 'AppBase Base';
 
    @AddToCollection('adminizerMiddlewares')
